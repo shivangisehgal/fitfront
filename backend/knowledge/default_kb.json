@@ -1,0 +1,46 @@
+{
+  "office_info": {
+    "name": "Our Studio",
+    "hours": "Monday–Friday 6am–9pm, Saturday–Sunday 8am–2pm",
+    "emergency_info": "For medical emergencies, call 911 immediately.",
+    "website": "",
+    "parking": ""
+  },
+  "services": [
+    {
+      "name": "Personal Training Session",
+      "price_min": 0,
+      "price_max": 0,
+      "duration_minutes": 60,
+      "notes": "1:1 with a certified trainer."
+    },
+    {
+      "name": "Group HIIT Class",
+      "price_min": 0,
+      "price_max": 0,
+      "duration_minutes": 45,
+      "notes": ""
+    },
+    {
+      "name": "Trial Session",
+      "price_min": 0,
+      "price_max": 0,
+      "duration_minutes": 30,
+      "notes": "First-time visitors only."
+    }
+  ],
+  "faqs": [
+    {
+      "question": "What should I bring to my first session?",
+      "answer": "Comfortable workout clothes, a water bottle, and a towel. We provide all equipment."
+    },
+    {
+      "question": "Do you offer meal prep or nutrition guidance?",
+      "answer": "Our trainers can point you to general high-protein meal-prep resources during your session; for personalized nutrition plans, ask about our coaching add-on."
+    },
+    {
+      "question": "What if I have an injury or medical condition?",
+      "answer": "Please tell your trainer before starting any session so they can adjust the program safely."
+    }
+  ]
+}

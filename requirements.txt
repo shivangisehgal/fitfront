@@ -1,0 +1,45 @@
+# Web framework
+fastapi>=0.115.0
+uvicorn[standard]>=0.34.0
+python-multipart>=0.0.18
+
+# Database (async only)
+sqlalchemy[asyncio]>=2.0.36
+asyncpg>=0.30.0
+
+# LLM (Ollama via OpenAI-compatible API, or Gemini)
+openai>=1.58.0
+google-genai>=1.47.0
+
+# Vapi.ai
+httpx>=0.28.0
+
+# Twilio SMS (using httpx directly — twilio SDK requires aiohttp which lacks Python 3.14 support)
+# Google Calendar (using httpx directly against Google REST APIs — no SDK needed)
+
+# Environment
+python-dotenv>=1.0.1
+
+# Phone number normalisation (Google libphonenumber)
+phonenumbers>=8.13.0
+
+# Utilities
+pydantic>=2.10.0
+pydantic-settings>=2.7.0
+python-dateutil>=2.9.0
+pytz>=2024.2
+
+# Static file serving
+aiofiles>=24.1.0
+
+# Authentication
+bcrypt>=4.2.0
+PyJWT>=2.10.0
+# Note: email validation handled by a lightweight regex in backend/routes/auth.py
+# (Pydantic's EmailStr is avoided because it pulls in the email-validator package
+# which can be blocked behind some corporate proxies.)
+
+# Testing
+pytest>=8.0.0
+pytest-asyncio>=0.24.0
+pytest-timeout>=2.3.0
